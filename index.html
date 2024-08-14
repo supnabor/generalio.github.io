@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/css/intlTelInput.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.min.css" />
+    <title>Generali</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="index.html" class="logo logo-header">
+            <img src="./images/logo.svg" alt="" />
+          </a>
+          <nav class="header__nav">
+            <a class="header__link" href="#one">Informazioni</a>
+            <a class="header__link" href="#two">CEO</a>
+            <a class="header__link" href="#three"
+              >Iniziare a guadagnare subito</a
+            >
+          </nav>
+          <div class="burger__button">
+            <div class="line one"></div>
+            <div class="line two"></div>
+            <div class="line three"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--HERO-->
+    <div class="hero">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title _anim-items _anim-hide">
+            <p>
+              Investire 250 euro per raggiungere 5000 euro in una settimana vi
+              sembra impossibile?
+            </p>
+            <p>Con il Gruppo Generali potete fare ancora di più!</p>
+          </h1>
+        </div>
+        <div class="hero__image _anim-items _anim-hide">
+          <img src="./images/hero-img.svg" alt="" />
+        </div>
+        <form class="register" id="form" method="POST" action="#">
+          <div class="form__input">
+            <input
+              id="firstName"
+              name="name"
+              type="text"
+              placeholder="il suo nome"
+              required
+            />
+            <span class="error-message" id="firstNameError"></span>
+          </div>
+          <div class="form__input">
+            <input
+              id="lastName"
+              name="surname"
+              type="text"
+              placeholder="il suo cog"
+              required
+            />
+            <span class="error-message" id="lastNameError"></span>
+          </div>
+          <div class="form__input">
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="e-mail"
+              required
+            />
+            <span class="error-message" id="emailError"></span>
+          </div>
+          <div class="form__input">
+            <input id="phone" name="phone" type="tel" value="+353" required />
+            <span class="error-message" id="phoneError"></span>
+          </div>
+
+          <button type="submit" class="button">registrati</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="info">
+      <div class="container">
+        <div class="info__inner">
+          <div class="info__image">
+            <svg
+              width="474"
+              height="223"
+              viewBox="0 0 474 223"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20.8797 22.0499C22.3744 9.47243 33.0391 0 45.7051 0H448.673C465.338 0 477.337 15.9968 472.674 31.9959L422.248 204.996C419.138 215.665 409.359 223 398.247 223H25.1467C10.1702 223 -1.44587 209.922 0.321424 195.05L20.8797 22.0499Z"
+                fill="#D9D9D9"
+              />
+            </svg>
+          </div>
+          <div class="info__content">
+            <div class="info__title">IL NOSTRO SCOPO</div>
+            <div class="info__text">
+              Siamo qui per promuovere lo sviluppo e la circolazione delle
+              persone, delle imprese e del Paese.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FEATURES-->
+    <div class="features" id="one">
+      <h2 class="section__title">Inizia a servire con noi</h2>
+      <div class="container">
+        <div class="features__inner">
+          <div class="features__item">
+            <div class="features__icon">
+              <img src="./images/icon-1.svg" alt="" />
+            </div>
+            <div class="features__title">Registrazione</div>
+            <div class="features__text">
+              Compilare tutti i campi del modulo di registrazione sul sito web.
+            </div>
+            <a href="#" class="features__button">INIZIARE</a>
+          </div>
+          <div class="features__item">
+            <div class="features__icon">
+              <img src="./images/icon-2.svg" alt="" />
+            </div>
+            <div class="features__title">Consultazione di esperti</div>
+            <div class="features__text">
+              Dopo la registrazione, rispondere all'invito del Consulente di
+              supporto di Petrol Energia e seguire tutte le sue istruzioni.
+            </div>
+            <a href="#" class="features__button">INIZIARE</a>
+          </div>
+          <div class="features__item">
+            <div class="features__icon">
+              <img src="./images/icon-3.svg" alt="" />
+            </div>
+            <div class="features__title">Deposito</div>
+            <div class="features__text">
+              Dopo la verifica, è necessario depositare un minimo di 250 euro
+              sul conto dell'azionista.
+            </div>
+            <a href="#" class="features__button">INIZIARE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="about" id="two">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__image">
+              <img src="./images/about-img.png" alt="" />
+            </div>
+            <div class="about__text">
+              <p>
+                Philippe Donnet, amministratore delegato di Generali, ha appena
+                festeggiato dieci anni in Italia e in un’intervista a
+                “Repubblica” spiega che bilancio trae dal nostro Paese: “In
+                questi dieci anni il mondo ha dovuto fare i conti con prove
+                molto dure e questo ci ha resi più capaci di gestire
+                l’imprevedibile. L’Italia ha resistito bene. Per quanto mi
+                riguarda, tre anni fa sono diventato cittadino italiano: perché
+                ci tenevo a rimarcare un’adesione forte ai valori e alla cultura
+                di questo Paese”. Un’altra prova per l’economia è stato il
+                repentino rialzo dei tassi: “A mio parere è improprio parlare
+                oggi di tassi alti: quando ero teenager, i mutui viaggiavano a
+                due cifre percentuali. La vera anomalia è stata vivere con tassi
+                a zero per quindici anni. Oggi siamo in una situazione normale.
+                Per quel che riguarda il nostro gruppo, abbiamo un business mix
+                grazie al quale possiamo crescere in qualsiasi ciclo economico”.
+                La crescita dell’Italia è stimata attorno allo 0,7 per cento:
+                “Noi non avremo problemi ma per la crescita si può fare meglio,
+                in Italia e in Europa. Ritengo che in Europa non ci sia
+                abbastanza Europa, ma troppe tasse e troppe norme, che si
+                sovrappongono a quelle nazionali. Questo non aiuta né le
+                famiglie né le imprese: quindi abbassiamo le tasse, riduciamo le
+                norme e liberiamo le energie imprenditoriali”.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="calculator" id="three">
+        <div class="container">
+          <h2 class="section__title">Potencijal dobiti</h2>
+          <div class="calculator__inner">
+            <div class="range">
+              <div class="range__title">
+                Unesite iznos koji želite uložiti i vremenski okvir u kojem
+                želite ostvariti potencijalnu dobit.
+              </div>
+              <input
+                type="text"
+                class="range__slider"
+                id="range1"
+                name="my__range1"
+                value=""
+              />
+              <input
+                type="text"
+                class="range__slider"
+                id="range2"
+                name="my__range2"
+                value=""
+              />
+              <div class="range__sum">
+                <span>MOGUĆA DOBIT:</span>
+                <div class="sum" id="result">€ 0</div>
+              </div>
+            </div>
+            <div class="calculator__content">
+              <div class="calculator__info">
+                <p>UKUPNA DOBIT KORISNIKA:</p>
+                <span>€ 128 567 000</span>
+              </div>
+              <div class="calculator__info">
+                <p>AKTIVNI KORISNICI:</p>
+                <span>77 335</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <div class="reviews__slider">
+        <div class="reviews__item">
+          <div class="reviews__image">
+            <img src="./images/reviews-1.png" alt="" />
+          </div>
+          <div class="reviews__author">
+            <div class="reviews__title">Jeff Bezos:</div>
+            <div class="reviews__subtitle">
+              Technologieunternehmer, Investor und Philanthrop
+            </div>
+            <a href="#" class="reviews__link">
+              <img src="./images/facebook.png" alt="" />
+            </a>
+          </div>
+          <div class="reviews__text">
+            <p>
+              Dem Quantencomputing gehört die Zukunft. Ich übertreibe nicht,
+              wenn ich sage, es wird alles verändern wird. Das Quantencomputing
+              steht noch ganz am Anfang; nicht viele Menschen wissen davon, was
+              bedeutet, dass nur sehr wenige es nutzen. Die wenigen, die es
+              nutzen, treffen unglaublich kluge (und profitable) Entscheidungen.
+            </p>
+          </div>
+        </div>
+        <div class="reviews__item">
+          <div class="reviews__image">
+            <img src="./images/reviews-2.png" alt="" />
+          </div>
+          <div class="reviews__author">
+            <div class="reviews__title">Bill Gates:</div>
+            <div class="reviews__subtitle">
+              Wirtschaftsmagnat, Investor, Autor, Philanthrop und Menschenfreund
+            </div>
+            <a href="#" class="reviews__link">
+              <img src="./images/facebook.png" alt="" />
+            </a>
+          </div>
+          <div class="reviews__text">
+            <p>
+              Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von seinem
+              eigenen Geld ausgegeben hat, um dieses Programm zu finanzieren.
+              Hut ab vor ihm - das sind 3 Milliarden Dollar von seinem eigenen
+              Geld, um eine bessere Zukunft für alle zu finanzieren und um
+              anderen zu helfen Gewinne zu machen, die ihm dabei helfen werden!
+              Das ist eine Win-Win-Situation, und ich bin sehr gespannt zu
+              sehen, wohin das führen wird.
+            </p>
+          </div>
+        </div>
+        <div class="reviews__item">
+          <div class="reviews__image">
+            <img src="./images/reviews-3.png" alt="" />
+          </div>
+          <div class="reviews__author">
+            <div class="reviews__title">Bill Gates:</div>
+            <div class="reviews__subtitle">
+              Wirtschaftsmagnat, Investor, Autor, Philanthrop und Menschenfreund
+            </div>
+            <a href="#" class="reviews__link">
+              <img src="./images/facebook.png" alt="" />
+            </a>
+          </div>
+          <div class="reviews__text">
+            <p>
+              Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von seinem
+              eigenen Geld ausgegeben hat, um dieses Programm zu finanzieren.
+              Hut ab vor ihm - das sind 3 Milliarden Dollar von seinem eigenen
+              Geld, um eine bessere Zukunft für alle zu finanzieren und um
+              anderen zu helfen Gewinne zu machen, die ihm dabei helfen werden!
+              Das ist eine Win-Win-Situation, und ich bin sehr gespannt zu
+              sehen, wohin das führen wird.
+            </p>
+          </div>
+        </div>
+        <div class="reviews__item">
+          <div class="reviews__image">
+            <img src="./images/reviews-4.png" alt="" />
+          </div>
+          <div class="reviews__author">
+            <div class="reviews__title">Bill Gates:</div>
+            <div class="reviews__subtitle">
+              Wirtschaftsmagnat, Investor, Autor, Philanthrop und Menschenfreund
+            </div>
+            <a href="#" class="reviews__link">
+              <img src="./images/facebook.png" alt="" />
+            </a>
+          </div>
+          <div class="reviews__text">
+            <p>
+              Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von seinem
+              eigenen Geld ausgegeben hat, um dieses Programm zu finanzieren.
+              Hut ab vor ihm - das sind 3 Milliarden Dollar von seinem eigenen
+              Geld, um eine bessere Zukunft für alle zu finanzieren und um
+              anderen zu helfen Gewinne zu machen, die ihm dabei helfen werden!
+              Das ist eine Win-Win-Situation, und ich bin sehr gespannt zu
+              sehen, wohin das führen wird.
+            </p>
+          </div>
+        </div>
+        <div class="reviews__item">
+          <div class="reviews__image">
+            <img src="./images/reviews-5.png" alt="" />
+          </div>
+          <div class="reviews__author">
+            <div class="reviews__title">Bill Gates:</div>
+            <div class="reviews__subtitle">
+              Wirtschaftsmagnat, Investor, Autor, Philanthrop und Menschenfreund
+            </div>
+            <a href="#" class="reviews__link">
+              <img src="./images/facebook.png" alt="" />
+            </a>
+          </div>
+          <div class="reviews__text">
+            <p>
+              Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von seinem
+              eigenen Geld ausgegeben hat, um dieses Programm zu finanzieren.
+              Hut ab vor ihm - das sind 3 Milliarden Dollar von seinem eigenen
+              Geld, um eine bessere Zukunft für alle zu finanzieren und um
+              anderen zu helfen Gewinne zu machen, die ihm dabei helfen werden!
+              Das ist eine Win-Win-Situation, und ich bin sehr gespannt zu
+              sehen, wohin das führen wird.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="partners">
+      <div class="container">
+        <h2 class="section__title">Gli azionisti dell'azienda</h2>
+        <div class="partners__inner">
+          <div class="partners__item">
+            <img src="./images/partners.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="container container-big">
+        <div class="footer__inner">
+          <a href="index.html" class="logo">
+            <img src="./images/logo.svg" alt="" />
+          </a>
+          <div class="footer__nav">
+            <a href="#" class="footer__nav-link">Mappa del sito</a>
+            <a href="#" class="footer__nav-link">Termini di utilizzo</a>
+            <a href="#" class="footer__nav-link">Avviso di accessibilità</a>
+            <a href="#" class="footer__nav-link">Gestione dei Cookie</a>
+            <a href="#" class="footer__nav-link"
+              >Politica sulla protezione dei dati e informativa sulla privacy</a
+            >
+            <a href="#" class="footer__nav-link"
+              >Avviso di frode Web e phishing</a
+            >
+            <a href="#" class="footer__nav-link"
+              >Politica sui reclami – Australia</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--SCRIPTS-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/intlTelInput.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/utils.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <!-- <script src="./js/slick.min.js"></script> -->
+    <script src="./js/app.min.js"></script>
+  </body>
+</html>
